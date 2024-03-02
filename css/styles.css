@@ -78,8 +78,9 @@ color: #2e2f42;
 .header-meny-item {
 }
 
-.header-meny-link {
+.header-meny-link { color: #2e2f42;
 }
+.header-meny-link:focus { color: #404bbf;}
 
 .address {font-style: normal;
 }
@@ -124,7 +125,8 @@ background-color: #4D5AE5;}
 
 .hero-btn:hover,hero-btn:focus {
     color: #404BBF;
-    background-color: #404BBF
+    background-color: #404BBF;
+    
 }
 
 
@@ -175,10 +177,10 @@ color: #2e2f42;
 }
 
 .team-list {
-    background-color: #FFFFFF;
+    
 }
 
-.team-item {
+.team-item { background-color: #FFFFFF ;
 }
 
 .team-image {
